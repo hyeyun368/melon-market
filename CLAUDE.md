@@ -4,7 +4,7 @@
 
 ## 기술 스택
 - Frontend: React (Vite) → `frontend/` 폴더, Vercel 배포
-- Backend: Spring Boot 3, Java 21, Gradle → `backend/` 폴더, Render 배포
+- Backend: Spring Boot 4, Java 21, Gradle → `backend/` 폴더, Render 배포
 - Database: MySQL (Render에서 도커로 실행, 데이터 유실 허용)
 
 ## 기능 (CRUD)
