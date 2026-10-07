@@ -5,7 +5,9 @@
 ## 기술 스택
 - Frontend: React (Vite) → `frontend/` 폴더, Vercel 배포
 - Backend: Spring Boot 4, Java 21, Gradle → `backend/` 폴더, Render 배포
-- Database: MySQL (Render에서 도커로 실행, 데이터 유실 허용)
+- Database: MySQL
+  - 개발: 내 컴퓨터 MySQL (localhost:3306/melon_market, 계정 melon_user)
+  - 배포: Aiven for MySQL (무료 플랜, SSL 필수), 교수님 지정
 
 ## 기능 (CRUD)
 - 판매글 목록, 상세 보기, 작성, 수정, 삭제
