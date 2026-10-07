@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* 메론 테마 색상: bg-melon-500, text-melon-800 처럼 쓸 수 있어요 */
+@theme {
+  --color-melon-50: #f4fbe9;
+  --color-melon-100: #e6f6cc;
+  --color-melon-200: #cdec9d;
+  --color-melon-300: #addf64;
+  --color-melon-400: #8fce3a;
+  --color-melon-500: #6fb31f;
+  --color-melon-600: #548f15;
+  --color-melon-700: #416d15;
+  --color-melon-800: #365717;
+  --color-melon-900: #2f4a18;
+}
+
+body {
+  @apply bg-melon-50 text-gray-800;
+  font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+}
