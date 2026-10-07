@@ -1,0 +1,7 @@
+package com.melonmarket.backend.melon;
+
+public enum SaleStatus {
+	ON_SALE,  // 판매중
+	RESERVED, // 예약중
+	SOLD_OUT  // 판매완료
+}
