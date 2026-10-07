@@ -1,0 +1,13 @@
+# Docker 이미지를 만들 때 복사하지 않을 파일들
+build/
+.gradle/
+bin/
+out/
+.idea/
+.vscode/
+*.iml
+.env
+.env.*
+HELP.md
+Dockerfile
+.dockerignore
